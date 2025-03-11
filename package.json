@@ -1,0 +1,25 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "allure:clear": "rm -r allure-results/ allure-report/ cypress/screenshots || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.4",
+    "allure-cypress": "3.2.0",
+    "cypress": "14.1.0",
+    "cypress-cucumber-preprocessor": "4.3.1",
+    "esbuild": "0.25.1",
+    "eslint": "9.22.0",
+    "eslint-plugin-cypress": "4.2.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "22.0.1"
+  }
+}
